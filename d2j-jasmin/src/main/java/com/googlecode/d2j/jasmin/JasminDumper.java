@@ -660,7 +660,7 @@ public class JasminDumper implements Opcodes {
                 }
             }
         } else if (cst instanceof Long) {
-            pw.print(cst + "L");
+            pw.print(cst);
         } else {
             pw.print(cst);
         }
